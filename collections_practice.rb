@@ -31,3 +31,10 @@ def kesha_maker(strings)
     kesha_array << strings
   end
 end
+
+def find_a(strings)
+  strings.each do |string|
+    string.start_with?("a")
+  end
+  strings
+end
