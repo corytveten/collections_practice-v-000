@@ -43,3 +43,13 @@ def sum_array(numbers)
     sum + n
   end
 end
+
+def add_s(strings)
+  strings.each_with_index.collect do |string, index|
+    if index == 1
+      string
+    else
+      string << "s"
+    end
+  end
+end
