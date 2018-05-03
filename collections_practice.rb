@@ -42,4 +42,4 @@ def sum_array(numbers)
   numbers.inject do |sum, n|
     sum + n
   end
-  end
+end
