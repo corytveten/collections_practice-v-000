@@ -10,7 +10,7 @@ def sort_array_desc(numbers)
 end
 
 def sort_array_char_count
-  numbers.sort do |a|
-    a.length
+  numbers.sort do |a, b|
+    a.length <=> b.length
   end
 end
