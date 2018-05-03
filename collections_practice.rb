@@ -29,4 +29,5 @@ def kesha_maker(strings)
   strings.each do |string|
     string[2] = "$"
     kesha_array << strings
+  end
 end
