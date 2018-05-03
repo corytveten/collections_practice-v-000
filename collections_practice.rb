@@ -18,4 +18,3 @@ end
 def swap_elements(numbers)
   numbers[0], numbers[1], numbers[2] = numbers[0]. numbers[2], numbers[1]
 end
-    
