@@ -14,3 +14,8 @@ def sort_array_char_count(numbers)
     a.length <=> b.length
   end
 end
+
+def swap_elements(numbers)
+  numbers[1], numbers[2] = numbers[2], numbers[1]
+end
+    
